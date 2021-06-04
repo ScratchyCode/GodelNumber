@@ -50,7 +50,7 @@ int main(){
         }
         
         // termino la ricerca quando ho i numeri primi sufficienti
-        if(j > strlen(messaggio)){
+        if(j >= strlen(messaggio)){
             break;
         }
     }
